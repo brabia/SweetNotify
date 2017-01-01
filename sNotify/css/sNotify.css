@@ -1,0 +1,30 @@
+.sNotify{
+	border: 1px solid #15A58E;
+	position: fixed;
+	right: 10px;
+	border-radius: 3px;
+	z-index: 99999;
+	background: #fff;
+	max-width: 320px;
+}
+.sNotify .sNotify_header{background: #21C1AB;padding: 5px;color: #fff;}
+.sNotify .sNotify_body{padding: 5px;}
+.sNotify .sNotify_body .sNotify_content{
+	float: right;
+	margin-left: 60px;
+}
+.sNotify .sNotify_thumb{
+	background-color: #f7f3f3 !important;
+	background-image: url(../images/sNotify.png);
+    margin-right: 10px;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: 40px auto !important;
+    border: 1px solid #ddd;
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+
+.sNotify .sNotify_footer{padding: 5px;font-size: 10px;text-align: right;clear: both;}
+.sNotify .sNotify_close{float: right;cursor: pointer;}

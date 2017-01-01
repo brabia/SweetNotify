@@ -1,7 +1,6 @@
 # SweetNotify
 sNotify
 ==========
-sNotify is a Sweet Notify based on javascript
 
 Usage
 -----

@@ -1,6 +1,4 @@
 # SweetNotify
-sNotify
-==========
 
 Usage
 -----

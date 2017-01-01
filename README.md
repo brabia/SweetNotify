@@ -18,11 +18,14 @@ Examples
 --------
 
 ```javascript
-sNotify({
-	title: "Are you sure?",
-	text: "This is sNotify content!",
-	type: "warning"
-}, function(){
-	
-});
+sNotify.init({
+	title: 'ZappingMag',
+	body: '3657 users are watching BBC News Live Streaming on ZappingMag',
+	image: 'http://www.zappingmag.com/uploads/13.jpg',
+	config: {
+		delay: 5,
+		autoClose: true,
+		timeOut: 10
+	}
+})
 ```

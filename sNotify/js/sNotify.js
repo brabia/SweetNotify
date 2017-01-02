@@ -21,14 +21,14 @@
 			console.log('-- sNotify loaded --');
 			sNotify.clear();
 			$('body').append(''
-				+'<div class="sNotify">'
+				+'<div class="sNotify sNotify_'+arg.config.position+'">'
 					+'<div class="sNotify_header">'
 						+'<span class="sNotify_close">&#10006</span>'
 						+''+arg.title+''
 					+'</div>'
 					+'<div class="sNotify_body">'
 						+'<div class="sNotify_content">'+arg.body+'</div>'
-						+'<div style="background:url('+arg.image+')" class="sNotify_thumb"></div>'
+						+'<div class="sNotify_thumb"></div>'
 					+'</div>'
 					+'<div class="sNotify_footer">'
 						+'sNotify'

@@ -15,6 +15,7 @@
 .sNotify .sNotify_body .sNotify_content{
 	float: right;
     width: 245px;
+	float: right;
 }
 .sNotify .sNotify_thumb{
 	background-color: #f7f3f3 !important;

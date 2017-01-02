@@ -10,8 +10,6 @@ Usage
 
 Examples
 --------
-![alt tag](http://url/to/img.png)
-
 
 Tutorial
 --------

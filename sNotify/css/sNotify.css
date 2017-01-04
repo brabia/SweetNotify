@@ -1,5 +1,4 @@
 .sNotify{
-	border: 1px solid #15A58E;
 	position: fixed;
 	right: 10px;
 	border-radius: 3px;
@@ -10,12 +9,40 @@
 .sNotify.sNotify_left{
 	left: 10px;
 }
-.sNotify .sNotify_header{background: #21C1AB;padding: 5px;color: #fff;}
-.sNotify .sNotify_body{padding: 5px;}
+.sNotify .sNotify_header{
+	padding: 5px;
+	color: #fff;
+	font-size: 13px;
+}
+
+.sNotify.sNotify_warning{
+	border: 1px solid #EC971F;
+}
+.sNotify.sNotify_warning .sNotify_header{	
+	background: #EC971F;
+}
+.sNotify.sNotify_info{
+	border: 1px solid #31B0D5;
+}
+.sNotify.sNotify_info .sNotify_header{	
+	background: #31B0D5;
+}
+.sNotify.sNotify_error{
+	border: 1px solid #C9302C;
+}
+.sNotify.sNotify_error .sNotify_header{	
+	background: #C9302C;
+}
+
+.sNotify .sNotify_body{
+	padding: 5px;
+}
 .sNotify .sNotify_body .sNotify_content{
-	float: right;
     width: 245px;
 	float: right;
+	margin-left: 65px;
+	line-height: 20px;
+	font-size: 14px;
 }
 .sNotify .sNotify_thumb{
 	background-color: #f7f3f3 !important;
@@ -29,5 +56,13 @@
     height: 50px;
     width: 50px;
 }
-.sNotify .sNotify_footer{padding: 5px;font-size: 10px;text-align: right;clear: both;}
-.sNotify .sNotify_close{float: right;cursor: pointer;}
+.sNotify .sNotify_footer{
+	padding: 5px;
+	font-size: 10px;
+	text-align: right;
+	clear: both;
+}
+.sNotify .sNotify_close{
+	float: right;
+	cursor: pointer;
+}

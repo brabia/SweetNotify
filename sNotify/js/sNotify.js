@@ -21,7 +21,7 @@
 			console.log('-- sNotify loaded --');
 			sNotify.clear();
 			$('body').append(''
-				+'<div class="sNotify sNotify_'+arg.config.position+'">'
+				+'<div class="sNotify sNotify_'+arg.config.position+' sNotify_'+arg.type+'">'
 					+'<div class="sNotify_header">'
 						+'<span class="sNotify_close">&#10006</span>'
 						+''+arg.title+''

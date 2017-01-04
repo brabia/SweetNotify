@@ -1,4 +1,4 @@
-# SweetNotify
+# SmartNotify
 
 Usage
 -----

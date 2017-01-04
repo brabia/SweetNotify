@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SmartNotify Plugin Demo</title>
+		<link rel="stylesheet" type="text/css" href="css/demo.css">
+		<link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="sNotify/css/sNotify.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>SmartNotify Plugin Demo</h1>
+			<button id="btn-info" class="btn btn-info">Info</button>
+			<button id="btn-warning" class="btn btn-danger">Warning</button>
+			<button id="btn-error" class="btn btn-warning">Error</button>
+			
+			<script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+			<script src="sNotify/js/sNotify.js"></script>
+		</div>
+		<script type="text/javascript">
+		(function($){
+			"use strict";
+			$(function(){
+				$('#btn-info').on('click', function(){					
+					sNotify.init({
+						title: 'SmartNotify',
+						body: 'Vivamus quis auctor est. Sed a lacus in enim cursus vehicula id a metus.',
+						type: 'info',
+						config: {
+							position: 'right',
+							delay: 0,
+							autoClose: false,
+							timeOut: 10
+						}
+					})
+				});
+				$('#btn-warning').on('click', function(){					
+					sNotify.init({
+						title: 'SmartNotify',
+						body: 'Vivamus quis auctor est. Sed a lacus in enim cursus vehicula id a metus.',
+						type: 'warning',
+						config: {
+							position: 'right',
+							delay: 0,
+							autoClose: false,
+							timeOut: 10
+						}
+					})
+				});
+				$('#btn-error').on('click', function(){					
+					sNotify.init({
+						title: 'SmartNotify',
+						body: 'Vivamus quis auctor est. Sed a lacus in enim cursus vehicula id a metus.',
+						type: 'error',
+						config: {
+							position: 'right',
+							delay: 0,
+							autoClose: false,
+							timeOut: 10
+						}
+					})
+				});
+			});
+		}(jQuery));
+		</script>
+	</body>
+</html>

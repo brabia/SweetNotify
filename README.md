@@ -17,7 +17,7 @@ Tutorial
 sNotify.init({
 	title: 'ZappingMag',
 	body: '3657 users are watching BBC News Live Streaming on ZappingMag',
-	image: 'http://www.zappingmag.com/uploads/13.jpg',
+	type: 'info',
 	config: {
 		position: 'left',
 		delay: 5,
